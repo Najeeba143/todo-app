@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import TodoList from './Todolist';
 import TodoInput from './todoInput';
 import {v1 as uuid} from "uuid"; 
-import axios from 'axios'
+import axios from 'axios';
 
 export default class app extends Component {
     state={
